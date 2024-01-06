@@ -4,71 +4,23 @@
     padding: 0;
     background-color: #f0f2f5;
 }
-/*
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-
-.login-form {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.navbar {
-    background-color: #4267B2;
-    color: #fff;
-    padding: 10px;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-    text-align: center;
-}
-
-.form-group {
-    margin-bottom: 15px;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-input {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
 
 .login-btn {
-    background-color: #1877f2;
-    color: #fff;
-    padding: 10px 15px;
-    border:  none;
-    border-radius: 4px;
-    cursor: pointer;
-} */
+   width: 50px;
+   height: 30px;
+   margin-top: 30px;
+   text-align: center;
+   border-radius: 5px;
+   /* margin-left: 40px; */
+} 
 .container{
     background-color: rgb(50, 50, 119);
     color: #fff;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center
 }
- /* .login-form{
-    margin: 0;
-    padding: 0;
-    display: flex; 
-    display: inline-block; 
-    
-}  */
 .login-form{
     margin: 0px;
     padding: 0px;
@@ -79,6 +31,9 @@ input {
 a{
     display: flex;
     color: wheat;
+}
+.p-nav{
+   
 }
 label {
     display: block;
@@ -93,11 +48,17 @@ input{
     width: 30px;
     height: 30px;
 } */
+.maindiv-1{
+    width: 40%;
+    margin-left: 10px;
+}
 .maindiv-2{
     float: right;
-    position: relative;
+    position:relative;
     width: 35%;
     line-height: 20px;
+    top: 10px;
+    margin-top: -550px;
 }
 .input3{
     width: 90%;
@@ -127,3 +88,16 @@ line-height: 25px;
     
 }
 
+#docu{
+    width: 100px;
+    height: 100px;
+}
+.from{
+    text-decoration: none;
+    color: #000000;
+    margin-top: 50px;
+}
+.para{
+    margin-top: 40px;
+    margin-left: 20px;
+}

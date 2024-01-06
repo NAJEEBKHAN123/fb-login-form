@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>fb-login form</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" /> -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,17 +20,21 @@
                 <div class="form-group">
                     <label for="password">Password:</label>
                     <input type="password" id="password" name="password" required>
+                    <p class="p-nav">Forget account?</p>
                 </div>
-                <button type="submit" class="login-btn">Log in</button>
-                <p class="p-nav"><a href="">Forget account?</a></p>
+                
+                <button type="submit" class="login-btn">Login</button>
+                
         </div>
     </div>
+    
     <main class="main-container">
         <div class="maindiv-1">
-        <h1>Connect with friends and the world around you on Facebook.</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, eius!</p>
-       <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, minus?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. <p>
+        <h1 style="margin-left: 20px;">Connect with friends and the world around you on Facebook.</h1>
+        
+        <a class="from" href=""><img src="./page.png" alt=""><p class="para"><b>See photos and updates from</b> from friends in news feed.</p></a>
+        <a class="from" href=""><img src="./share.png" alt=""><p class="para"><b>Share what's new</b>in your life on your Timeline.</p></a>
+        <a class="from" href=""><img src="./find.png" alt=""><p class="para"><b>Find more</b> of what you're looking for with facebook search.</p></a>
     </div>
     <div class="maindiv-2">
         <h1>Sign up</h1>
@@ -38,13 +43,13 @@
         <input class="input2" type="text" placeholder="Last name">
         <input class="input3" type="text" placeholder="Mobile number or Email">
         <br>
-        <input class="input4" type="text" placeholder="New password" name="" id="">
+        <input class="input4" type="text" placeholder="New Password" name="" id="">
         <label for="">Birthday:</label>
-        <input class="input5" type="date" name="" id="">
-        <p>why do i need to provide my birthday?</p>
+        <input class="input5" type="date" name>Why do i need to provide my birthday?</p>
         <input type="radio" name="" id="">Male:
         <input type="radio">Female
-        <p>By clicking sign up, you agree to our <b>Term, Data policy and Cookies policy.</b>  You may recieve SMS Notification form us and can opt out any time.</p>
+        <p>By clicking sign up, you agree to our <b style="color: blue;">Term, Data policy </b>
+             and <b style="color: blue;"> Cookies policy.</b>  You may recieve SMS Notification form us and can opt out any time.</p>
         <button class="singup-btn">Sing Up</button>
     </div>
     </main>
